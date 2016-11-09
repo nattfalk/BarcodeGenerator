@@ -283,7 +283,7 @@ namespace BarcodeGenerator.Code128GS1
                     }
                     entry.Values.Add(asciiBytes[index++]);
                 }
-                else if (CODE_A_VALID_CHARS.Contains(currentChar))
+                else if (CODE_B_VALID_CHARS.Contains(currentChar))
                 {
                     if (currentCodeSet == CodeSet.CodeB && !setFNC1)
                     {
