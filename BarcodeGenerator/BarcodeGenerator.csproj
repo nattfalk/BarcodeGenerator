@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code128\Encoder.cs" />
-    <Compile Include="Code128\BarcodeImage.cs" />
+    <Compile Include="Code128GS1\BarcodeImage.cs" />
+    <Compile Include="Code128GS1\Encoder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
